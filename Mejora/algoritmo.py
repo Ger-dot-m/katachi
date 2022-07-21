@@ -48,6 +48,8 @@ new_data = pd.DataFrame({
     'Fecha': fechas
 })
 data = pd.read_csv('datos.csv')
-data = data.append(new_data, ignore_index=True)
 
+for enlace in new_data['Enlace']:
+    if enlace not in data['Enlace']:
+        data = data.append(new_data, ignore_index=True)
 data.to_csv('datos.csv')

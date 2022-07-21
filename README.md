@@ -15,8 +15,7 @@ Este proyecto analiza el impacto de las noticias sobre el Bitcoin sobre los prec
 <br>
 
 ## Resultados y observaciones
-Finalmente, se obtuvo un modelo con precisión del 55%, es de esperarse un resultado así no sólo por todos los factores inherentes al cambio de valor en el Bitcoin,
-si no también por la escaces de datos.
+Finalmente, se obtuvo un modelo con precisión del 70%, es de esperarse un resultado así no sólo por todos los factores inherentes al cambio de valor en el Bitcoin, si no también por la escaces de datos. Además, se tratá de un análisis de clasificación por lo que su extrapolación a otros intervalos de tiempo se vuelve complejo.
 
 ### Sobre la escaces de los datos.
 Ciertamente, conseguir una fuente para obtener información puede llegar a ser complicado, en esto se ve involucrado la fiabilidad del sitio, su seguridad y 
