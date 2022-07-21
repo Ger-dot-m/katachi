@@ -1,5 +1,5 @@
 # katachi
-Este proyecto analiza el impacto de las noticias sobre el Bitcoin sobre los precios de esta criptomoneda.
+Este proyecto relaciona el impacto de las noticias de Bitcoin sobre los precios de la misma criptomoneda.
 ## Estructura
 - Extracción de datos.ipynb.
 
