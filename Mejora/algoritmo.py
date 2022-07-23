@@ -47,9 +47,9 @@ new_data = pd.DataFrame({
     'Texto': contenido,
     'Fecha': fechas
 })
-data = pd.read_csv('datos.csv')
+data = pd.read_csv('datos.csv', index_col=False)
 
 for enlace in new_data['Enlace']:
     if enlace not in data['Enlace']:
         data = data.append(new_data, ignore_index=True)
-data.to_csv('datos.csv')
+data.to_csv('datos.csv', index=False)
