@@ -1,4 +1,7 @@
+![alt text](https://github.com/Ger-dot-m/katachi/blob/main/proyecto2.jpg?raw=true)
+
 # katachi
+
 Este proyecto relaciona el impacto de las noticias de Bitcoin sobre los precios de la misma criptomoneda.
 ## Estructura
 - Extracción de datos.ipynb.
